@@ -1,0 +1,19 @@
+{
+  "name": "topiclift",
+  "owner": {
+    "name": "TopicLift",
+    "url": "https://topiclift.io"
+  },
+  "metadata": {
+    "description": "Read-only editorial intelligence tools for Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "topiclift-editorial-copilot",
+      "source": "./plugins/topiclift-claude",
+      "description": "Connect Claude Code to TopicLift for traffic, Google visibility and evidence-backed publishing recommendations.",
+      "version": "0.1.0"
+    }
+  ]
+}

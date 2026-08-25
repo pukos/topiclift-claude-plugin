@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "topiclift": {
+      "type": "http",
+      "url": "https://topiclift.io/mcp",
+      "oauth": {
+        "scopes": "topiclift.read"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "topiclift-editorial-copilot",
+  "displayName": "TopicLift Editorial Copilot",
+  "version": "0.1.0",
+  "description": "Read-only editorial traffic, Google visibility, and publishing recommendations from TopicLift.",
+  "author": {
+    "name": "TopicLift",
+    "url": "https://topiclift.io"
+  },
+  "homepage": "https://topiclift.io",
+  "license": "MIT",
+  "keywords": [
+    "topiclift",
+    "editorial-analytics",
+    "google-discover",
+    "search-console",
+    "publishing"
+  ]
+}
