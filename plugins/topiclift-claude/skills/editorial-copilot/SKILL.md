@@ -5,7 +5,7 @@ description: Use authenticated TopicLift data to answer questions about realtime
 
 # TopicLift Editorial Copilot
 
-Use the `topiclift` MCP server whenever the user asks about a TopicLift site's traffic, article performance, Google Search, Google Discover, aggregate search queries, or publishing recommendations.
+Use the `topiclift` MCP server whenever the user asks about a TopicLift site's traffic, article performance, Google Search, Google Discover, aggregate search queries, an editorial idea, or publishing recommendations.
 
 ## Operating rules
 
@@ -23,6 +23,12 @@ Use the `topiclift` MCP server whenever the user asks about a TopicLift site's t
 Use `get_traffic_overview` for totals, trends, sources, and realtime status. Its traffic metrics are restricted to synced, published editorial WordPress posts; homepage, pages, archives, unknown post IDs, and other non-editorial URLs are excluded. State this scope briefly when reporting the numbers. Use `get_top_articles` when the question is about individual articles, winners, declines, or unusual growth.
 
 Always identify the site and period in the answer. Include the most relevant metrics and supporting articles. Do not overwhelm a short operational question with every available metric.
+
+## Editorial idea review
+
+Use `review_editorial_idea` when the user provides an idea, provisional title, outline, draft, or existing article URL and asks whether it is worth publishing or how to improve it. The tool is read-only and compares the input with the selected site's published editorial inventory and aggregate Google evidence.
+
+Explain the overlap risk, matching Search demand, related articles, confidence, and the suggested angles or titles. For a URL, distinguish an update opportunity from a genuinely new article. If the input is only an idea, do not imply that a URL or complete draft is required.
 
 ## Google Search and Discover questions
 

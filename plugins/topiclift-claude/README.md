@@ -1,6 +1,6 @@
 # TopicLift Editorial Copilot for Claude Code
 
-TopicLift Editorial Copilot connects Claude Code to the TopicLift remote MCP server. It provides read-only access to authorized TopicLift sites for traffic analysis, Google Search, Google Discover, Google News, aggregate search queries and evidence-backed publication recommendations.
+TopicLift Editorial Copilot connects Claude Code to the TopicLift remote MCP server. It provides read-only access to authorized TopicLift sites for traffic analysis, Google Search, Google Discover, Google News, aggregate search queries, editorial idea reviews and evidence-backed publication recommendations.
 
 The plugin uses TopicLift OAuth by default. It does not contain a TopicLift token or any other secret.
 
