@@ -26,7 +26,7 @@ Always identify the site and period in the answer. Include the most relevant met
 
 ## Google Search and Discover questions
 
-Use `get_google_performance` for Search, Discover, and Google News performance. Use `get_search_queries` only for aggregate web-search queries. Treat missing Discover query data as expected because Search Console does not provide query dimensions for Discover.
+Use `get_google_performance` for Search, Discover, and Google News performance. Use `get_search_queries` only for aggregate web-search queries. All Google metrics, pages, queries, and associated articles returned by these tools are restricted to synced, published editorial WordPress posts with a non-empty canonical URL; non-editorial pages, homepage/archive URLs, drafts, and unmapped Search Console rows are excluded. Treat missing Discover query data as expected because Search Console does not provide query dimensions for Discover.
 
 ## Publishing recommendations
 
