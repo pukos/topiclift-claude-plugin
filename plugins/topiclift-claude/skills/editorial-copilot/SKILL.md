@@ -9,7 +9,7 @@ Use the `topiclift` MCP server whenever the user asks about a TopicLift site's t
 
 ## Operating rules
 
-- Answer in the language used by the user.
+- Detect the language of the current user message, not the conversation history, site language, tool output, or account locale. Write the complete conversational answer in that language: English input requires an English answer, Italian input requires an Italian answer, and so on. Keep tool names, schema fields, URLs, and quoted source labels unchanged when needed, but translate explanatory prose, headings, recommendations, titles, and angles. If the current message is genuinely mixed or ambiguous, follow its dominant language.
 - Use only data returned by TopicLift. Do not browse the web or add external trend data to fill gaps.
 - Keep every analysis scoped to one site. If the site is missing or ambiguous, call `list_sites` and ask the user to choose only when more than one plausible site remains.
 - Select the period from the question. Use realtime for current activity; otherwise use today, yesterday, 7 days, 28 days, or 90 days as the closest supported range.
